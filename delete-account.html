@@ -68,14 +68,22 @@
     with the subject "Account Deletion Request".
   </p>
 
-  <h2>What we delete</h2>
+  <h2>What data is deleted</h2>
+  <h3>For Customers (Kivaloop App):</h3>
   <ul>
-    <li>Your account and authentication record.</li>
-    <li>Profile information, including your name, email, and profile photo.</li>
-    <li>Posts, stories, likes, and comments you created.</li>
-    <li>Shops and menus you created as a shop partner.</li>
-    <li>Reward points and fortune-wheel/spin history.</li>
-    <li>Uploaded images associated with your account, subject to cache expiry.</li>
+    <li>Authentication profile and login credentials in Firebase Auth.</li>
+    <li>Customer profile (display name, email address, profile picture).</li>
+    <li>Cart items, past order history, reward points, and spin history.</li>
+    <li>Social interactions: posts, stories, comments, and reviews.</li>
+  </ul>
+
+  <h3>For Shop Partners (Kivaloop Shop Partner App):</h3>
+  <ul>
+    <li>Merchant authentication credentials and owner details (name, email, phone).</li>
+    <li>Store business documents: shop name, description, address, and coordinates.</li>
+    <li>Business hours and weekly operating schedules.</li>
+    <li>Full menu catalog, items, descriptions, prices, and categories.</li>
+    <li>Uploaded media from Cloudinary (store logo, banner, gallery pictures, and item photos).</li>
   </ul>
 
   <h2>What may be retained</h2>
